@@ -1,9 +1,9 @@
 #!/bin/bash
 
 # Definir directorios
-TRANSLATORX="/media/server/a77f75fe-fd07-402e-84d7-a7341c29141c/fertorres/dnds/paulina/1_TRANSLATORX/0_SCRIPT/translatorx_vLocal.pl"
-INPUT_DIR="/media/server/a77f75fe-fd07-402e-84d7-a7341c29141c/fertorres/mazz_cds/Single_Copy_Orthologue_Sequences"
-OUTPUT_DIR="/media/server/a77f75fe-fd07-402e-84d7-a7341c29141c/fertorres/dnds/paulina/1_TRANSLATORX/1_RESULTADO"
+TRANSLATORX="...T/translatorx_vLocal.pl"
+INPUT_DIR="...Single_Copy_Orthologue_Sequences"
+OUTPUT_DIR="...1_RESULTADO"
 
 # Crear directorio de salida si no existe
 mkdir -p "$OUTPUT_DIR"
