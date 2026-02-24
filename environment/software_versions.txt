@@ -1,0 +1,70 @@
+# =========================================================
+# SOFTWARE USED IN THIS STUDY
+# =========================================================
+
+# --- Quality control ---
+FastQC v0.12.0
+
+# --- Genome assembly ---
+MaSuRCA v4.1.0
+GenomeScope v1.0
+Pilon v1.2.4
+BWA v0.7.18
+SPAdes v4.4.0
+
+# --- Contamination filtering / repeats ---
+BlobTools v1.1.1
+RepeatScout v1.0.5
+RepeatMasker v4.0.9
+
+# --- Assembly assessment ---
+BUSCO v5.8.1 (database: eukaryota_odb10)
+QUAST v5.2.0
+
+# --- Transcriptome & annotation ---
+HISAT2 v2.x (exact version not specified in original pipeline)
+Trinity v2.15.2
+TransDecoder v5.7.1
+CD-HIT v4.8.1
+BRAKER v3.0.8
+
+# --- Orthology & alignments ---
+OrthoFinder v2.x (exact version not specified)
+MAFFT v7.271
+BMGE v1.x (exact version not specified)
+
+# --- Bayesian phylogenetics ---
+BEAST2 / StarBEAST2 v2.7.6
+Tracer v1.6
+LogCombiner v2.7.6
+TreeAnnotator v2.7.6
+DensiTree v2.2.1
+
+# --- Gene tree discordance ---
+PhyParts v0.0.1
+phypartspiecharts.py (https://github.com/mossmatters/phyloscripts)
+
+# --- Monophyly testing ---
+monophyly.R (https://github.com/tomas-fer/scripts)
+
+# --- Selection analyses ---
+PAML (codeml) v4.x
+
+# --- Demographic inference ---
+DILS pipeline (Fraïsse et al. 2021, version as distributed by authors)
+PSMC v0.6.5
+minimap2 v2.28
+bcftools v1.2
+seqtk v1.4-r122
+vcfutils.pl (samtools/bcftools misc scripts)
+
+# --- Introgression tests ---
+Dsuite v0.5x (exact version not specified)
+
+# =========================================================
+# NOTES
+# =========================================================
+# Some tools were executed on institutional servers and exact patch
+# versions may vary slightly. Scripts used for data processing and
+# figure generation are available in the repository:
+# https://github.com/fertorresc/Torres_etal_2026
