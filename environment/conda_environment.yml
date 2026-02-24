@@ -1,0 +1,57 @@
+name: mazzaella_genomics
+
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+
+dependencies:
+
+  # ---------- CORE ----------
+  - python=3.11
+  - r-base=4.3
+
+  # ---------- VCF / SNP ----------
+  - bcftools
+  - vcftools
+  - plink
+  - plink2
+  - bedtools
+  - samtools
+  - tabix
+
+  # ---------- PHYLOGENOMICS ----------
+  - iqtree
+  - mafft
+
+  # ---------- DEMOGRAPHY ----------
+  - psmc
+  - dadi
+
+  # ---------- SELECTION ----------
+  - paml
+
+  # ---------- PYTHON STACK ----------
+  - numpy
+  - pandas
+  - scipy
+  - matplotlib
+  - seaborn
+  - scikit-allel
+  - jupyter
+
+  # ---------- R STACK ----------
+  - r-data.table
+  - r-tidyverse
+  - r-ggplot2
+  - r-adegenet
+  - r-reshape2
+  - r-optparse
+
+  # LEA y SNPRelate se instalan mejor desde Bioconductor
+  - r-devtools
+
+  # ---------- PIP ----------
+  - pip
+  - pip:
+      - cyvcf2
