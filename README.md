@@ -30,9 +30,9 @@ This GitHub repository contains scripts, parameters, metadata, and figure-genera
 
 ## Repository structure
 
-XXXX/        XXX  
-Scripts/        script for orthology, codeml runs, LRT test, monophyly  
-Dils/            demographic modelling parameters  
+environment/  conda environmente and software versions
+Scripts/  script for orthology, codeml runs, LRT test, monophyly  
+Dils/  demographic modelling parameters  
 data_links.md    links to external data repositories  
 
 ---
